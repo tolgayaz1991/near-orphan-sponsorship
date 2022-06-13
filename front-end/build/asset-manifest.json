@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/orphan-sponsorship-demo/static/css/main.b5686523.chunk.css",
+    "main.js": "/orphan-sponsorship-demo/static/js/main.eb2c7e83.chunk.js",
+    "main.js.map": "/orphan-sponsorship-demo/static/js/main.eb2c7e83.chunk.js.map",
+    "runtime-main.js": "/orphan-sponsorship-demo/static/js/runtime-main.f007875d.js",
+    "runtime-main.js.map": "/orphan-sponsorship-demo/static/js/runtime-main.f007875d.js.map",
+    "static/css/2.4969be45.chunk.css": "/orphan-sponsorship-demo/static/css/2.4969be45.chunk.css",
+    "static/js/2.f5fd5ae7.chunk.js": "/orphan-sponsorship-demo/static/js/2.f5fd5ae7.chunk.js",
+    "static/js/2.f5fd5ae7.chunk.js.map": "/orphan-sponsorship-demo/static/js/2.f5fd5ae7.chunk.js.map",
+    "static/js/3.31cd4fae.chunk.js": "/orphan-sponsorship-demo/static/js/3.31cd4fae.chunk.js",
+    "static/js/3.31cd4fae.chunk.js.map": "/orphan-sponsorship-demo/static/js/3.31cd4fae.chunk.js.map",
+    "index.html": "/orphan-sponsorship-demo/index.html",
+    "static/css/2.4969be45.chunk.css.map": "/orphan-sponsorship-demo/static/css/2.4969be45.chunk.css.map",
+    "static/css/main.b5686523.chunk.css.map": "/orphan-sponsorship-demo/static/css/main.b5686523.chunk.css.map",
+    "static/js/2.f5fd5ae7.chunk.js.LICENSE.txt": "/orphan-sponsorship-demo/static/js/2.f5fd5ae7.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/orphan-sponsorship-demo/static/media/bootstrap-icons.f2539a50.woff2",
+    "static/media/cover.63510826.jpg": "/orphan-sponsorship-demo/static/media/cover.63510826.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f007875d.js",
+    "static/css/2.4969be45.chunk.css",
+    "static/js/2.f5fd5ae7.chunk.js",
+    "static/css/main.b5686523.chunk.css",
+    "static/js/main.eb2c7e83.chunk.js"
+  ]
+}

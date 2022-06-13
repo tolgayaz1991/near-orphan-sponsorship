@@ -1,0 +1,12 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "Smart contract of orphan sponsorship project",
+  "main": "index.ts",
+  "repository": "https://github.com/tolgayaz1991/near-orphan-sponsorship",
+  "author": "Tolga Yaz",
+  "license": "MIT",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
