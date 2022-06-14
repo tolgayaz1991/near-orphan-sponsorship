@@ -111,7 +111,7 @@ const OrphansTable = () => {
     const columns = [{
         dataField: 'orphan_id',
         text: "Orphan ID",
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '80px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
         sort: true,
         sortFunc: (a, b, order) => {
           if (order === 'asc') {
@@ -122,11 +122,11 @@ const OrphansTable = () => {
       }, {
         dataField: 'full_name',
         text: 'Full Name',
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '120px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
       }, {
         dataField: 'birth_year',
         text: 'Birth Year',
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '100px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
         formatter: (cellContent, row) => {
           return ( 
             <>
@@ -138,7 +138,7 @@ const OrphansTable = () => {
       }, {
         dataField: 'gender',
         text: 'Gender',
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '100px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
         formatter: (cellContent, row) => {
           return ( 
             <>
@@ -151,7 +151,7 @@ const OrphansTable = () => {
       }, {
         dataField: 'sponsored_for',
         text: 'Sponsored Days So Far',
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '100px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
         sort: true,
         sortFunc: (a, b, order) => {
           if (order === 'asc') {
@@ -163,7 +163,7 @@ const OrphansTable = () => {
       {
         dataField:"",
         text: "Unregister Orphan (only for Allowed Accounts)",
-        headerStyle: { textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
+        headerStyle: { width: '100px', textAlign: 'center', verticalAlign: 'middle', overflowWrap:"break-word" },
         editable: false,
         formatter: (cellContent, row) => {
           return (
@@ -197,12 +197,15 @@ const OrphansTable = () => {
       </Col>
       </Row>
       <AddOrphan add={handleAddOrphan} />
+      <div class="table-responsive-md">
       <BootstrapTable keyField="orphan_id" 
+      classes="mt-3"
       data={orphans} 
       columns={columns} 
       defaultSorted={ defaultSorted }
       rowStyle={ { textAlign: "center", verticalAlign:"middle", fontWeight: "500", overflowWrap:"break-word"} }
       striped hover condensed />
+      </div>
     </div>
     </>):(
         <Loader />

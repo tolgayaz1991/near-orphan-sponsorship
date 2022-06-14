@@ -35,7 +35,7 @@ const AddOrphan = ({ add }) => {
         onClick={handleShow}
         className="btn btn-lg"
       >
-        Add An Orphan To The Table
+        Add An Orphan
       </Button>
       </Row>
       <Modal show={show} onHide={handleClose} centered>
