@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/near-orphan-sponsorship/static/css/main.b5686523.chunk.css",
-    "main.js": "/near-orphan-sponsorship/static/js/main.c665aa94.chunk.js",
-    "main.js.map": "/near-orphan-sponsorship/static/js/main.c665aa94.chunk.js.map",
+    "main.js": "/near-orphan-sponsorship/static/js/main.ca855d92.chunk.js",
+    "main.js.map": "/near-orphan-sponsorship/static/js/main.ca855d92.chunk.js.map",
     "runtime-main.js": "/near-orphan-sponsorship/static/js/runtime-main.bba9e4d9.js",
     "runtime-main.js.map": "/near-orphan-sponsorship/static/js/runtime-main.bba9e4d9.js.map",
     "static/css/2.dec0adad.chunk.css": "/near-orphan-sponsorship/static/css/2.dec0adad.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.dec0adad.chunk.css",
     "static/js/2.56f1bb1b.chunk.js",
     "static/css/main.b5686523.chunk.css",
-    "static/js/main.c665aa94.chunk.js"
+    "static/js/main.ca855d92.chunk.js"
   ]
 }
