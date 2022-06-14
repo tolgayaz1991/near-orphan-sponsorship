@@ -191,7 +191,7 @@ const OrphansTable = () => {
     <div className="App">
       <SponsoringForm submit_form={handleSponsoring} />
       <br /><br />
-      <Row  className="mb-2 justify-content-md-center mt-1">
+      <Row  className="mb-2 justify-content-md-center mt-3">
       <Col className="col-md-auto">
         <h1 style={{textAlign:"center"}} className="justify-content-center">Table of Orphans To Be Sponsored</h1>
       </Col>
