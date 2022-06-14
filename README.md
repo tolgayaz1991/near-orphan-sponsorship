@@ -12,6 +12,6 @@ The front-end is useful for performing main actions of the logic. It is responsi
 
 The site is deployed to Near Testnet for observation and basic usage.
 
-### You can enter it via this link: https://tolgayaz1991.github.io/near-orphan-sponsorship/
+### You may access it via this link: https://tolgayaz1991.github.io/near-orphan-sponsorship/
 
-### Note: You need to have Near Testnet Account to use the site.
+### Note: You need to have a Near Testnet Account to use the site.
