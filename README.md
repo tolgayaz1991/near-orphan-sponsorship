@@ -6,7 +6,7 @@ This is a project for a planned Orphan Sponsorship campaign.
 
 The campaign's goal is to collect support for orphans in need.
 
-The smart contract coded for this demo project may be used for different actions including sponsoring orphans via donating near, viewing important information about orphans, (if you are allowed) registering and unregistering orphans.
+The smart contract coded for this demo project may be used for different actions including sponsoring orphans via donating Near, viewing important information about orphans, (if you are allowed) registering and unregistering orphans.
 
 The front-end is useful for performing main actions of the logic. It is responsive and simple to use.
 
