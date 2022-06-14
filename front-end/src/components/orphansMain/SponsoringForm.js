@@ -20,7 +20,6 @@ const SponsoringForm = ({submit_form}) => {
           <Form.Label className="row justify-content-center" style = {{textAlign:"center"}}><span style = {{fontWeight: 500, fontSize: 17}}>Enter An Orphan Id To Sponsor<br />(Observe The Orphan Table Below, Enter 0 for General Support)<br />(If there happens a problem in reaching an orphan, the support is used for other orphans.)</span></Form.Label>
           <Form.Control
             required
-            autoFocus
             type="text"
             placeholder="Orphan Id"
             onChange={(e) => {
