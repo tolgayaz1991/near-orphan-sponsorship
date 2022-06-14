@@ -44,8 +44,9 @@ const SponsoringForm = ({submit_form}) => {
         </Form.Group>
         </Row>
           <Row className="justify-content-center" xs={3} md={2}>
-            <Button  className="btn btn-lg" size="lg" onClick={() => submit_form({orphanId,daysToSponsor})}>Submit form</Button>
+            <Button  className="btn btn-lg" size="lg" onClick={() => submit_form({orphanId,daysToSponsor})}>Submit The Form</Button>
           </Row>
+          <p className="row justify-content-center mt-1" style = {{textAlign:"center"}}><span style = {{fontWeight: 500, fontSize: 17}}>To get to the approval page</span></p>
       </Form> 
       </>
   );
